@@ -1,0 +1,29 @@
+
+.login{
+    height: 54px;
+    width: 260px;
+    border-radius: 4px;
+    border:1px solid #D7D7D7;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;  
+    
+}
+
+button{
+    height: 45px;
+    width: 109px;
+    left: 133px;
+    top: 327px;
+    border-radius: 9px;
+    margin-top: 15px;
+    /*font-family: Roboto;*/
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BATE PAPO UOL</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos2.css">
+</head>
+<body>
+    <div id="login" class="tela">
+        <div id="inner-login">
+            <img class="image" src="./imagens/logo1.png">
+            <input class="login" placeholder="Digite seu nome">
+            <button>Entrar</button>
+        </div>
+    </div>
+    <div id="chat" class="tela">
+        <div id="topo">
+            <img src="./imagens/logo1.png">
+            <img src="./imagens/people1.png">
+        </div>
+        <div id="conteudo">
+            <ul>
+                <!-- 
+                <div class="retangulo1">(09:21:45)  <b> &nbsp; João  &nbsp;</b> entra na sala...</div>
+                <div class="retangulo2">(09:22:28)  <b> &nbsp; João  &nbsp;</b> para Todos:  Bom dia</div>
+                <div class="retangulo3">(09:22:38)  <b> &nbsp; Maria &nbsp;</b> para <b> &nbsp; João  &nbsp;</b>:  Oi João :)</div>
+                <div class="retangulo4"><span>(09:22:48)<b> &nbsp;João&nbsp;</b>reservadamente para <b>&nbsp;Maria &nbsp;</b>: Oi gatinha quer tc?</div></span>
+                <div class="retangulo5">(09:22:58)  <b> &nbsp; Maria &nbsp;</b> sai da sala...</div>
+                -->
+            </ul>
+        </div>
+        <div id="footer">
+            <input class="input-texto"placeholder="Escreva aqui">
+            <ion-icon id="button-send" name="paper-plane-outline"> </ion-icon>
+        </div>
+        <div id="menu-lateral-escondido">
+            <div class="retangulo"> 
+            </div>
+            <div class="retangulo2-2">
+                <div class="caixa-texto">Escolha um contato
+                    para enviar mensagem:</div>
+                    <div class="todos">
+                        <ion-icon name="people"></ion-icon> <p>Todos</p>
+                    </div>
+                    <div class="todos">
+                        <ion-icon name="person-circle"></ion-icon> <p>João</p>
+                    </div>
+                    <div class="todos">
+                    <ion-icon name="person-circle"></ion-icon> <p>Maria</p>
+                    </div>
+                <div class="caixa-texto">Escolha a visibilidade:</div>
+                <div class="todos">
+                    <ion-icon name="lock-open"></ion-icon> <p>Público</p>
+                </div>
+                <div class="todos">
+                    <ion-icon name="lock-closed"></ion-icon> <p>Privada</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="chat.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
