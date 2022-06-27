@@ -47,10 +47,10 @@ class Conversa {
 					li.style.background = "gray";
 					span.innerHTML = `<font color="white">${msgDoServidor[i].time}</font> <strong>${msgDoServidor[i].from}</strong>: ${msgDoServidor[i].text}`;
 					break;
-				// case "status": QUERIA QUE FOSSE RESERVADAMENTE
-				// li.style.background = "pink";
-				// span.innerHTML = `<font color="pink">${msgDoServidor[i].time}</font> <strong>${msgDoServidor[i].from}</strong>: ${msgDoServidor[i].text}`;
-				// break;
+				case "private_message":
+				li.style.background = "pink";
+				span.innerHTML = `<font color="pink">${msgDoServidor[i].time}</font> <strong>${msgDoServidor[i].from}</strong>: ${msgDoServidor[i].text}`;
+				break;
 			}
 			li.appendChild(span);
 			conteudo.appendChild(li);
